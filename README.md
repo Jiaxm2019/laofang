@@ -2,21 +2,37 @@
 
 ## 网站已创建内容
 
-### 页面文件
-- `index.html` — 首页（完整，包含6大骗术分类、最新文章、热线条线等）
-- `article-ai-fraud.html` — 深度文章：AI换脸诈骗（完整，约4000字，含真实案例、识别方法、维权步骤）
+### 页面文件（7个页面）
+- `index.html` — 首页（完整，包含7大骗术分类、最新文章、热线条线等）
+- `article-ai-fraud.html` — AI换脸诈骗（约4000字，含真实案例、识别方法、维权步骤）
+- `article-healthcare.html` — 保健品诈骗（约4500字，6大套路+7个识别信号+维权攻略）
+- `article-wenwan-livestream.html` — 文玩玉石直播骗局（快手抖音带货骗局揭秘）
+- `article-fake-expert.html` — 如何识别假专家、假鉴定证书（实用指南）
+- `article-refund-guide.html` — 被骗后如何退款维权（7步追回损失）
+- `README.md` — 部署说明
 
-### 待创建（后续我会陆续补充）
-- `article-healthcare.html` — 保健品诈骗
+### 内容统计
+- **总字数**：约15,000字
+- **覆盖骗术类型**：AI诈骗、保健品诈骗、直播带货骗局
+- **实用指南**：专家识别、证书验证、维权退款
+
+### 待创建（后续陆续补充）
 - `article-telecom.html` — 电信网络诈骗
 - `article-investment.html` — 投资理财陷阱
 - `article-gift.html` — 中奖/抽奖诈骗
 - `article-relative.html` — 假冒亲属诈骗
 - `article-social.html` — 养老服务诈骗
-- `article-report-guide.html` — 报警维权指南
-- `article-elderly-law.html` — 老人法律权益
-- `article-common-cases.html` — 案例TOP10
-- `article-healthcare-detail.html` — 保健品深度揭秘
+
+---
+
+## 如何更新网站内容
+
+网站已部署到 GitHub Pages，更新内容需要重新上传文件：
+
+1. 打开你的 GitHub 仓库页面
+2. 点击 "Add file" → "Upload files"
+3. 上传更新后的文件（覆盖原有文件）
+4. 等待 1-2 分钟，网站自动更新
 
 ---
 
