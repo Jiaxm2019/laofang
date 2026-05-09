@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>【深度曝光】保健品诈骗：老人被骗十几万的真相 — 守护夕阳</title>
+  <meta name="description" content="保健品诈骗已成老人最大财产威胁之一。免费旅游、专家讲座、亲情营销……骗子如何一步步掏空老人积蓄？本文揭秘保健品诈骗完整套路，并提供维权指南。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1a5c52; --primary-dark: #0f3d38; --primary-light: #2d8a7e;
+      --accent: #e8723a; --danger: #d44; --warn-bg: #fff3e0;
+      --cream: #faf8f2; --text: #2c2c2c; --text-light: #5a5a5a;
+      --border: #e0dbd0; --shadow: 0 4px 24px rgba(26,92,82,0.10);
+      --health-green: #2e7d32; --health-light: #e8f5e9;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Noto Sans SC', sans-serif; background: var(--cream); color: var(--text); line-height: 1.9; font-size: 17px; }
+    header { background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 60%); color: white; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 20px rgba(0,0,0,0.2); }
+    .header-inner { max-width: 1100px; margin: 0 auto; padding: 0 24px; height: 64px; display: flex; align-items: center; gap: 12px; }
+    .back-link { color: rgba(255,255,255,0.85); text-decoration: none; font-size: 14px; display: flex; align-items: center; gap: 6px; transition: color 0.2s; }
+    .back-link:hover { color: white; }
+    .header-logo { font-family: 'Noto Serif SC', serif; font-size: 18px; font-weight: 900; color: white; text-decoration: none; margin-left: 12px; padding-left: 12px; border-left: 1px solid rgba(255,255,255,0.2); }
+    .article-container { max-width: 800px; margin: 0 auto; padding: 48px 24px 80px; }
+    .article-breadcrumb { font-size: 13px; color: var(--text-light); margin-bottom: 20px; }
+    .article-breadcrumb a { color: var(--primary); text-decoration: none; }
+    .article-header { margin-bottom: 36px; }
+    .article-tag { display: inline-block; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 20px; margin-bottom: 16px; background: #fff3e0; color: #bf6000; }
+    .article-tag.new { background: var(--health-light); color: var(--health-green); }
+    .article-title { font-family: 'Noto Serif SC', serif; font-size: 30px; font-weight: 900; color: var(--primary-dark); line-height: 1.4; margin-bottom: 16px; }
+    .article-meta { display: flex; gap: 20px; font-size: 14px; color: var(--text-light); flex-wrap: wrap; padding-bottom: 20px; border-bottom: 2px solid var(--border); }
+    .article-meta span { display: flex; align-items: center; gap: 5px; }
+    .share-box { background: linear-gradient(135deg, var(--primary), var(--primary-light)); color: white; border-radius: 16px; padding: 24px; margin-bottom: 36px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+    .share-box .share-left h4 { font-size: 18px; font-weight: 700; margin-bottom: 4px; }
+    .share-box .share-left p { font-size: 14px; opacity: 0.85; }
+    .share-box .share-right { display: flex; gap: 10px; }
+    .share-btn { background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.3); color: white; padding: 10px 18px; border-radius: 8px; font-size: 14px; cursor: pointer; transition: all 0.2s; text-decoration: none; }
+    .share-btn:hover { background: rgba(255,255,255,0.3); }
+    .intro-box { background: linear-gradient(135deg, #e8f5e9, #f1f8e9); border: 2px solid var(--health-green); border-radius: 16px; padding: 28px; margin-bottom: 36px; }
+    .intro-box h3 { font-family: 'Noto Serif SC', serif; font-size: 20px; font-weight: 900; color: var(--health-green); margin-bottom: 12px; }
+    .intro-box p { font-size: 16px; color: var(--text); line-height: 1.9; }
+    .intro-box strong { color: var(--health-green); }
+    .article-body { font-size: 17px; line-height: 2; }
+    .article-body h2 { font-family: 'Noto Serif SC', serif; font-size: 22px; font-weight: 900; color: var(--primary-dark); margin-top: 44px; margin-bottom: 16px; padding-bottom: 10px; border-bottom: 2px solid var(--border); }
+    .article-body h3 { font-family: 'Noto Serif SC', serif; font-size: 18px; font-weight: 700; color: var(--primary-dark); margin-top: 28px; margin-bottom: 12px; }
+    .article-body p { margin-bottom: 18px; color: var(--text); }
+    .article-body strong { color: var(--primary-dark); font-weight: 700; }
+    .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin: 24px 0; }
+    .stat-card { background: white; border-radius: 14px; padding: 20px; text-align: center; box-shadow: var(--shadow); border: 1px solid var(--border); }
+    .stat-card .num { font-size: 28px; font-weight: 900; color: var(--danger); font-family: 'Noto Serif SC', serif; }
+    .stat-card .label { font-size: 13px; color: var(--text-light); margin-top: 4px; }
+    .case-box { background: white; border-left: 5px solid var(--health-green); border-radius: 0 14px 14px 0; padding: 24px; margin: 24px 0; box-shadow: var(--shadow); }
+    .case-box.green { border-left-color: var(--health-green); }
+    .case-box.orange { border-left-color: var(--accent); }
+    .case-box .case-label { font-size: 12px; font-weight: 700; color: var(--health-green); letter-spacing: 1px; margin-bottom: 8px; }
+    .case-box .case-title { font-family: 'Noto Serif SC', serif; font-size: 18px; font-weight: 700; color: var(--primary-dark); margin-bottom: 10px; }
+    .case-box .case-amount { font-size: 24px; font-weight: 900; color: var(--danger); margin-bottom: 10px; }
+    .case-box p { font-size: 15px; color: var(--text-light); margin-bottom: 8px; line-height: 1.8; }
+    .how-box { background: white; border-radius: 16px; padding: 28px; margin: 24px 0; box-shadow: var(--shadow); border: 1px solid var(--border); }
+    .how-box h3 { font-family: 'Noto Serif SC', serif; font-size: 18px; font-weight: 900; color: var(--primary-dark); margin-bottom: 16px; }
+    .how-step { display: flex; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--border); }
+    .how-step:last-child { border-bottom: none; }
+    .how-step .step-icon { width: 40px; height: 40px; border-radius: 50%; background: var(--health-light); color: var(--health-green); font-size: 20px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-weight: 900; }
+    .how-step .step-body h4 { font-size: 16px; font-weight: 700; color: var(--primary-dark); margin-bottom: 4px; }
+    .how-step .step-body p { font-size: 14px; color: var(--text-light); margin: 0; }
+    .tactic-card { background: white; border-radius: 14px; padding: 20px; margin-bottom: 16px; box-shadow: var(--shadow); border: 1px solid var(--border); }
+    .tactic-card .tactic-title { font-size: 16px; font-weight: 700; color: var(--primary-dark); margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+    .tactic-card .tactic-title .tag { background: #ffebee; color: var(--danger); font-size: 11px; padding: 2px 8px; border-radius: 10px; font-weight: 700; }
+    .tactic-card p { font-size: 14px; color: var(--text-light); margin-bottom: 8px; line-height: 1.8; }
+    .tactic-card .red-flag { background: #fff5f5; border-radius: 8px; padding: 10px 14px; font-size: 14px; color: var(--danger); font-weight: 600; border-left: 3px solid var(--danger); }
+    .tip-box { background: #e8f5f2; border-radius: 14px; padding: 20px 24px; margin: 24px 0; border: 1px solid #b2dfdb; }
+    .tip-box h4 { font-size: 16px; font-weight: 700; color: var(--primary-dark); margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+    .tip-box ul { padding-left: 20px; }
+    .tip-box li { margin-bottom: 6px; font-size: 15px; color: var(--text); }
+    .warning-box { background: var(--warn-bg); border-radius: 14px; padding: 20px 24px; margin: 24px 0; border: 1px solid #ffcc80; }
+    .warning-box h4 { font-size: 16px; font-weight: 700; color: #bf6000; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+    .warning-box ul { padding-left: 20px; }
+    .warning-box li { margin-bottom: 6px; font-size: 15px; color: #5d4037; }
+    .hotline-section { background: linear-gradient(135deg, var(--primary-dark), var(--primary)); color: white; border-radius: 16px; padding: 32px; margin: 36px 0; text-align: center; }
+    .hotline-section h3 { font-family: 'Noto Serif SC', serif; font-size: 22px; font-weight: 900; margin-bottom: 8px; color: white; }
+    .hotline-section p { opacity: 0.85; margin-bottom: 20px; font-size: 15px; }
+    .hotline-grid { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .hotline-chip { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.25); border-radius: 10px; padding: 12px 24px; text-align: center; }
+    .hotline-chip .label { font-size: 13px; opacity: 0.75; margin-bottom: 4px; }
+    .hotline-chip .num { font-size: 22px; font-weight: 900; color: #ffd700; letter-spacing: 2px; }
+    .related-section { border-top: 2px solid var(--border); padding-top: 36px; margin-top: 48px; }
+    .related-section h3 { font-family: 'Noto Serif SC', serif; font-size: 20px; font-weight: 900; color: var(--primary-dark); margin-bottom: 20px; }
+    .related-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .related-card { background: white; border-radius: 12px; padding: 20px; border: 1px solid var(--border); text-decoration: none; color: var(--text); transition: all 0.2s; display: block; }
+    .related-card:hover { border-color: var(--primary-light); box-shadow: var(--shadow); transform: translateY(-2px); }
+    .related-card h4 { font-size: 15px; font-weight: 700; color: var(--primary-dark); line-height: 1.5; margin-bottom: 6px; }
+    .related-card span { font-size: 13px; color: var(--text-light); }
+    .product-red-list { background: white; border-radius: 16px; padding: 24px; margin: 24px 0; box-shadow: var(--shadow); border: 1px solid var(--border); }
+    .product-red-list h4 { font-family: 'Noto Serif SC', serif; font-size: 18px; font-weight: 900; color: var(--danger); margin-bottom: 16px; }
+    .product-red-list .item { display: flex; align-items: flex-start; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--border); }
+    .product-red-list .item:last-child { border-bottom: none; }
+    .product-red-list .item .icon { color: var(--danger); font-size: 18px; flex-shrink: 0; margin-top: 2px; }
+    .product-red-list .item .info .name { font-size: 15px; font-weight: 700; color: var(--primary-dark); margin-bottom: 2px; }
+    .product-red-list .item .info .desc { font-size: 13px; color: var(--text-light); }
+    @media (max-width: 600px) { .article-title { font-size: 22px; } .related-grid { grid-template-columns: 1fr; } .stat-row { grid-template-columns: 1fr; } .share-box { flex-direction: column; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="back-link">← 返回首页</a>
+      <a href="index.html" class="header-logo">守护夕阳</a>
+    </div>
+  </header>
+  <div class="article-container">
+    <div class="article-breadcrumb">
+      <a href="index.html">首页</a> &gt; <a href="index.html#fraud-types">骗术揭秘</a> &gt; 保健品诈骗
+    </div>
+    <div class="article-header">
+      <div class="article-tag new">🆕 深度曝光 / 高发</div>
+      <h1 class="article-title">【触目惊心】保健品诈骗：老人被骗十几万养老钱，子女毫不知情</h1>
+      <div class="article-meta">
+        <span>📅 2026年5月7日</span>
+        <span>阅读 18,293</span>
+        <span>评论 412</span>
+        <span>保健品诈骗 · 虚假宣传</span>
+      </div>
+    </div>
+    <div class="share-box">
+      <div class="share-left">
+        <h4>📢 帮父母远离保健品陷阱</h4>
+        <p>把文章转发到家庭群，让爸妈不再被骗</p>
+      </div>
+      <div class="share-right">
+        <a href="#" class="share-btn">💬 转发到家人群</a>
+        <a href="#" class="share-btn">📱 分享到朋友圈</a>
+      </div>
+    </div>
+    <div class="intro-box">
+      <h3>💡 你知道吗？</h3>
+      <p>中国每年因保健品诈骗损失的金额超过 <strong>100亿元</strong>，受骗人群平均年龄 <strong>68岁</strong>，平均损失金额 <strong>5.8万元</strong>——相当于很多老人一两年的养老金。更可怕的是：<strong>超过70%的受害老人，直到子女发现，才知道自己被骗了。</strong></p>
+    </div>
+    <div class="article-body">
+      <h2>📊 保健品诈骗有多严重？</h2>
+      <div class="stat-row">
+        <div class="stat-card">
+          <div class="num">100亿+</div>
+          <div class="label">全国年损失金额</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">68岁</div>
+          <div class="label">受害者平均年龄</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">5.8万</div>
+          <div class="label">人均损失金额</div>
+        </div>
+      </div>
+      <p>保健品诈骗，已经成为中国老人财产安全的最大威胁之一。它不同于其他诈骗类型——骗子会用 <strong>几个月甚至一两年的时间</strong> 来培养信任，让你父母把他们当成"亲人"，把他们的产品当成"救命稻草"。等你发现时，老人已经被深度洗脑，甚至不愿承认被骗。</p>
+      <h2>📺 真实案例：一步步落入陷阱</h2>
+      <div class="case-box green">
+        <div class="case-label">🟢 真实案例①</div>
+        <div class="case-title">杭州赵阿姨：免费旅游变"健康讲座"，一年花掉22万</div>
+        <div class="case-amount">损失：22万元</div>
+        <p>杭州68岁的赵阿姨接到一个陌生电话，对方自称是"夕阳红健康中心"，邀请她参加免费两日游，包吃包住。赵阿姨去了之后，发现是到某度假村听"健康讲座"。所谓"专家"现场推荐一种"航天员专用"的保健品，说能治好她的高血压、糖尿病。赵阿姨先是买了5000元的产品试用，后来又在"健康顾问"反复上门关怀下，一年内陆续购买了22万元的保健品，直到儿子发现家里堆满了各种包装盒，账户已被掏空。</p>
+      </div>
+      <div class="case-box green">
+        <div class="case-label">🟢 真实案例②</div>
+        <div class="case-title">成都刘大爷：认了干儿子，却被骗走18万"养老钱"</div>
+        <div class="case-amount">损失：18万元</div>
+        <p>成都71岁的刘大爷在公园遇到一个热情的年轻小伙子，自称是某保健品公司的"健康顾问"，对刘大爷关怀备至，每周打电话问候，还经常上门帮忙买米买油。刘大爷感动之下，认了这个"干儿子"。后来，"干儿子"开始推荐公司产品，说产品能治刘大爷的关节炎，"现在不买，以后就涨价了"。刘大爷瞒着家人，先后买了两年的产品，共计18万元。当家人发现时，"干儿子"已失联。</p>
+      </div>
+      <div class="case-box green">
+        <div class="case-label">🟢 真实案例③</div>
+        <div class="case-title">武汉孙奶奶：听信"教授"直播讲座，被骗15万</div>
+        <div class="case-amount">损失：15万元</div>
+        <p>武汉65岁的孙奶奶通过电视购物频道，接触到一个"老中医养生堂"的直播节目。节目里一位穿白大褂的"教授"讲解养生知识，推荐一款"祖传秘方"保健品，声称对多种慢性病有显著疗效。孙奶奶拨打电话购买后，对方又称"现在有活动，买三送二"，前后骗取15万元。后来家人查询发现，所谓"祖传秘方"不过是普通食品，没有任何治疗功效。</p>
+      </div>
+      <div class="case-box orange">
+        <div class="case-label">🟠 升级诈骗：假冒医院推销</div>
+        <div class="case-title">南京周大爷：假冒医院电话推销，被骗28万</div>
+        <div class="case-amount">损失：28万元</div>
+        <p>南京70岁的周大爷接到一个自称是"北京协和医院"工作人员的电话，说医院正在开展"慢性病康复计划"，可以免费领取一批特效保健品。周大爷信以为真，配合"医院"做了"免费体检"（实际上只是简单问卷）。几天后，"医院"打来电话说体检结果显示病情严重，需要购买高价保健品调理。周大爷先后汇款28万元，家人报警后发现，电话根本不是协和医院的，对方的账户也早已清空。</p>
+      </div>
+      <h2>🎭 骗子最常用的6大套路</h2>
+      <div class="how-box">
+        <h3>识别这些套路，让骗子无处遁形</h3>
+        <div class="how-step">
+          <div class="step-icon">1</div>
+          <div class="step-body">
+            <h4>免费礼品/旅游诱饵</h4>
+            <p>以"免费领鸡蛋""免费旅游""免费体检"为诱饵，把老人聚集起来。先给甜头，再慢慢推销。</p>
+          </div>
+        </div>
+        <div class="how-step">
+          <div class="step-icon">2</div>
+          <div class="step-body">
+            <h4>假冒权威身份</h4>
+            <p>穿上白大褂、挂上假工牌，冒充"专家""教授""中医世家""国家某某计划"等权威身份，用专业术语唬人。</p>
+          </div>
+        </div>
+        <div class="how-step">
+          <div class="step-icon">3</div>
+          <div class="step-body">
+            <h4>打感情牌："比子女还亲"</h4>
+            <p>骗子会花大量时间陪老人聊天、问候、帮忙做事，甚至认干亲。让老人产生情感依赖，不买产品就觉得"对不起人家"。</p>
+          </div>
+        </div>
+        <div class="how-step">
+          <div class="step-icon">4</div>
+          <div class="step-body">
+            <h4>饥饿营销+恐吓营销</h4>
+            <p>"今天不买就没了""这个成分马上要停产了""你的病再不吃就晚了"——用焦虑和恐惧逼老人冲动购买。</p>
+          </div>
+        </div>
+        <div class="how-step">
+          <div class="step-icon">5</div>
+          <div class="step-body">
+            <h4>虚假夸大功效</h4>
+            <p>把普通食品、甚至三无产品，吹嘘成"包治百病"的"神药"，声称能治好癌症、糖尿病、高血压等重大疾病。</p>
+          </div>
+        </div>
+        <div class="how-step">
+          <div class="step-icon">6</div>
+          <div class="step-body">
+            <h4>洗脑拒绝退款</h4>
+            <p>当老人或家属意识到被骗要求退款时，骗子会以"已拆封不能退""产品没问题，是你体质不适合"等理由拒绝，甚至失联跑路。</p>
+          </div>
+        </div>
+      </div>
+      <h2>🔍 识别假冒保健品的7个关键信号</h2>
+      <div class="tactic-card">
+        <div class="tactic-title">🚩 信号1：声称"包治百病"<span class="tag">最高危</span></div>
+        <p>世界上没有任何保健品能治好癌症、糖尿病、高血压。如果产品声称对多种疾病都有显著疗效，<strong>100%是虚假宣传</strong>。</p>
+        <div class="red-flag">正规药品都不敢说"包治百病"，保健品更不可能！</div>
+      </div>
+      <div class="tactic-card">
+        <div class="tactic-title">🚩 信号2：需要转账到私人账户</div>
+        <p>正规销售渠道（药店、医院、官方旗舰店）绝不会要求你转账到个人银行卡或微信、支付宝私人账户。</p>
+        <div class="red-flag">只要对方要求转账到私人账户，立刻停止交易！</div>
+      </div>
+      <div class="tactic-card">
+        <div class="tactic-title">🚩 信号3："限时优惠，过期涨价"</div>
+        <p>这是典型的销售恐吓手段。任何正规产品都不会因为"你不买就涨价"——这是保健品诈骗公司的惯用话术。</p>
+        <div class="red-flag">真正的好产品不会用"恐吓"来促销！</div>
+      </div>
+      <div class="tactic-card">
+        <div class="tactic-title">🚩 信号4：没有正规批准文号</div>
+        <p>正规保健品必须有"国食健字G/J + 8位数字"或"卫食健字"批准文号，可以在<a href="https://www.sfda.gov.cn" target="_blank">国家药监局官网</a>查询真伪。</p>
+        <div class="red-flag">没有批准文号，或批准文号查不到 = 三无产品！</div>
+      </div>
+      <div class="tactic-card">
+        <div class="tactic-title">🚩 信号5：只能从"特殊渠道"购买</div>
+        <p>正规保健品在各大药店、超市、电商平台均有销售。如果对方只通过"电话推销""上门推销""会销（会议营销）"销售，拒绝在正规渠道流通，这本身就有问题。</p>
+        <div class="red-flag">好产品不怕正规渠道销售，越神秘越可疑！</div>
+      </div>
+      <div class="tactic-card">
+        <div class="tactic-title">🚩 信号6：利用老人孤独感，"比子女还贴心"</div>
+        <p>经常上门陪聊、送礼物、认干亲……骗子投入感情是有目的的。不要被"温情"蒙蔽了判断力。</p>
+        <div class="red-flag">真正关心你的人，不会总让你掏钱！</div>
+      </div>
+      <div class="tactic-card">
+        <div class="tactic-title">🚩 信号7：退款时被百般推脱</div>
+        <p>当你或家人提出退款时，对方态度大变，或以各种理由拒绝。这说明从一开始就有问题。</p>
+        <div class="red-flag">正规产品有正规退换货流程，拒不退款的必有问题！</div>
+      </div>
+      <h2>🛡️ 如何帮助父母远离保健品陷阱？</h2>
+      <div class="tip-box">
+        <h4>✅ 给子女的8条建议</h4>
+        <ul>
+          <li><strong>多陪伴，少给骗子机会：</strong>骗子最善于填补老人的孤独。多给父母打电话、常回家看看，让父母不需要从骗子那里寻找情感慰藉。</li>
+          <li><strong>提前给父母"打预防针"：</strong>告诉父母：你买任何超过500元的东西，先告诉我一声。不要觉得不好意思——这是保护他们。</li>
+          <li><strong>教父母识别虚假宣传：</strong>把"包治百病""限时优惠""航天员专用""诺贝尔奖技术"等关键词告诉父母，这些99%是骗局。</li>
+          <li><strong>帮助父母查产品信息：</strong>去国家药监局网站（app1.nmpa.gov.cn）查询保健品批准文号，一查便知真伪。</li>
+          <li><strong>控制父母的大额消费：</strong>给父母的银行卡设置消费限额；如有必要，可以帮父母保管大额存单。</li>
+          <li><strong>关注父母的快递和包裹：</strong>如果家里突然多了很多保健品包装盒，要及时过问。</li>
+          <li><strong>不要当着父母面否定：</strong>如果父母已经买了，不要大声斥责——这样只会让他们更加抵触，也不愿再和你沟通。</li>
+          <li><strong>安装反诈App：</strong>帮父母手机安装"国家反诈中心"App，开启诈骗电话预警功能。</li>
+        </ul>
+      </div>
+      <h2>💊 记住：保健品不能代替药品</h2>
+      <div class="warning-box">
+        <h4>⚠️ 国家市场监管总局明确警示</h4>
+        <ul>
+          <li><strong>保健品是食品，不是药品：</strong>保健品不具备治疗疾病的功能，不能代替药物治疗。任何保健品宣传能治病，都是违法的。</li>
+          <li><strong>保健食品的27种功能是有限定的：</strong>国家批准的保健食品功能只有27种（如增强免疫力、辅助降血脂等），超出这些功能的宣传均为违法。</li>
+          <li><strong>虚假宣传可举报：</strong>遇到保健品虚假宣传，可拨打12315消费者投诉热线，或向当地市场监管局举报。</li>
+          <li><strong>发现被骗要维权：</strong>保健品诈骗属于经济犯罪，保留好购买凭证、转账记录、聊天记录，及时向公安机关报案。</li>
+        </ul>
+      </div>
+      <h2>⚖️ 购买保健品被骗了怎么办？</h2>
+      <div class="how-box">
+        <h3>被骗后维权的5步走</h3>
+        <div class="how-step">
+          <div class="step-icon" style="background:#ffebee;color:var(--danger);">1</div>
+          <div class="step-body">
+            <h4>保留所有证据</h4>
+            <p>产品包装盒、购买收据、转账记录、聊天记录（微信、短信、电话录音）、发票，一个都不能丢。这些是维权的基础。</p>
+          </div>
+        </div>
+        <div class="how-step">
+          <div class="step-icon" style="background:#ffebee;color:var(--danger);">2</div>
+          <div class="step-body">
+            <h4>联系销售方要求退货退款</h4>
+            <p>先和销售方沟通，说明产品功效与宣传不符，要求全额退款。很多时候对方为了避免麻烦，会同意退款。</p>
+          </div>
+        </div>
+        <div class="how-step">
+          <div class="step-icon">3</div>
+          <div class="step-body">
+            <h4>拨打12315消费者投诉热线</h4>
+            <p>向市场监管部门投诉，提供产品信息和购买凭证。12315会转交相关部门调查处理。</p>
+          </div>
+        </div>
+        <div class="how-step">
+          <div class="step-icon">4</div>
+          <div class="step-body">
+            <h4>向公安机关报案</h4>
+            <p>如果涉及诈骗金额较大（超过3000元），直接拨打110报案。保健品诈骗属于诈骗罪，警方可以立案侦查。</p>
+          </div>
+        </div>
+        <div class="how-step">
+          <div class="step-icon">5</div>
+          <div class="step-body">
+            <h4>寻求法律援助</h4>
+            <p>拨打12348法律咨询热线，或到当地法律援助中心申请援助。有很多公益律师可以帮助老人维权，且费用全免。</p>
+          </div>
+        </div>
+      </div>
+      <div class="hotline-section">
+        <h3>📞 需要帮助？立即拨打</h3>
+        <p>这些电话24小时在线，免费咨询，放心拨打</p>
+        <div class="hotline-grid">
+          <div class="hotline-chip"><div class="label">消费者投诉</div><div class="num">12315</div></div>
+          <div class="hotline-chip"><div class="label">报警</div><div class="num">110</div></div>
+          <div class="hotline-chip"><div class="label">反诈专线</div><div class="num">96110</div></div>
+          <div class="hotline-chip"><div class="label">法律咨询</div><div class="num">12348</div></div>
+        </div>
+      </div>
+      <h2>📌 总结</h2>
+      <p>保健品诈骗的核心，是利用老人的 <strong>健康焦虑 + 孤独感 + 信息不对称</strong>。作为子女，最重要的是：多陪伴、多沟通，让父母在遇到问题时愿意和你说，而不是瞒着你悄悄买。</p>
+      <p>记住：<strong>任何保健品都不能代替药品，任何宣传"包治百病"的产品都是骗局。</strong>转发这篇文章给父母看，让更多人远离保健品陷阱！</p>
+    </div>
+    <div class="related-section">
+      <h3>📚 相关推荐阅读</h3>
+      <div class="related-grid">
+        <a href="article-ai-fraud.html" class="related-card">
+          <h4>【紧急预警】AI换脸诈骗：看到子女视频也不一定是真人</h4>
+          <span>2026年5月6日 · 12,847阅读</span>
+        </a>
+        <a href="article-report-guide.html" class="related-card">
+          <h4>【收藏备用】老人被骗后如何正确报警？记住这7步</h4>
+          <span>2026年4月28日 · 5,891阅读</span>
+        </a>
+        <a href="article-telecom.html" class="related-card">
+          <h4>【防骗指南】电信网络诈骗全面揭秘</h4>
+          <span>2026年5月3日 · 8,234阅读</span>
+        </a>
+        <a href="article-elderly-law.html" class="related-card">
+          <h4>【法律武器】老人必知的10大法律权益，不再任人宰割</h4>
+          <span>2026年4月25日 · 5,432阅读</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
